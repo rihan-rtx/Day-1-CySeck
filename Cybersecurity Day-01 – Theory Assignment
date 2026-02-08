@@ -1,0 +1,129 @@
+# Cybersecurity Day-01 – Theory Assignment
+
+
+# Cybersecurity Day-01 – Theory Assignment (Interview Ready)
+
+## Section A – Short Answers (With Examples)
+
+**1. Define Cybersecurity.**  
+Cybersecurity is the practice of protecting systems, networks, and data from cyber attacks, unauthorized access, damage, or theft.  
+*Example:* Using antivirus and firewall to protect a laptop from malware.
+
+**2. What is an Asset in cybersecurity?**  
+An asset is anything valuable that needs protection, such as data, systems, or devices.  
+*Example:* A laptop storing personal documents is an asset.
+
+**3. What is a Threat?**  
+A threat is any potential danger that can cause harm to a system.  
+*Example:* A hacker trying to steal login credentials.
+
+**4. What is a Vulnerability?**  
+A vulnerability is a weakness in a system that can be exploited by a threat.  
+*Example:* Using a weak password.
+
+**5. What is Risk?**  
+Risk is the possibility of loss when a threat exploits a vulnerability.  
+*Example:* Weak password + hacker = account compromise.
+
+**6. Expand CIA Triad.**  
+CIA stands for Confidentiality, Integrity, and Availability.  
+*Example:* Encryption (Confidentiality), hashing (Integrity), backups (Availability).
+
+**7. What is CVE?**  
+CVE is a public identifier for known security vulnerabilities.  
+*Example:* Log4Shell vulnerability has CVE-2021-44228.
+
+**8. What is CVSS?**  
+CVSS is a scoring system that rates vulnerability severity from low to critical.  
+*Example:* A CVSS score of 9.8 means urgent patching is required.
+
+**9. What is a Security Control?**  
+A security control is a safeguard used to reduce risk.  
+*Example:* Firewall blocking unauthorized network traffic.
+
+**10. What is a Framework?**  
+A framework is a set of security guidelines and best practices.  
+*Example:* NIST framework used by organizations to manage security risks.
+
+---
+
+## Section B – Explain (With Real-Life Examples)
+
+**11. Explain CIA Triad with examples.**  
+- **Confidentiality:** Passwords prevent unauthorized access to email.  
+- **Integrity:** Hashing ensures files are not modified.  
+- **Availability:** Backups ensure data access during system failure.
+
+**12. Differentiate Threat, Vulnerability, and Risk.**  
+- Threat: Phishing email  
+- Vulnerability: User clicks unknown link  
+- Risk: Credential theft
+
+**13. Why are cybersecurity frameworks important?**  
+Frameworks provide standard security practices and help organizations respond to incidents effectively.  
+*Example:* NIST helps companies maintain consistent security controls.
+
+**14. Explain NIST NICE Framework.**  
+The NIST NICE Framework defines cybersecurity roles and skills needed in an organization.  
+*Example:* It defines roles like SOC Analyst and Incident Responder.
+
+**15. How does CVSS help organizations?**  
+CVSS helps prioritize vulnerabilities based on severity.  
+*Example:* A critical CVSS score is fixed before medium ones.
+
+---
+
+## Section C – Scenario Based (Interview Style)
+
+**Scenario 1:**  
+- Asset: Database  
+- Threat: Insider misuse  
+- Vulnerability: No access restrictions  
+- Risk: Data leakage  
+- Control: Role-based access control
+
+**Scenario 2:**  
+- Asset: Email account  
+- Threat: Phishing  
+- Vulnerability: Lack of user awareness  
+- Risk: Account takeover  
+- Control: MFA and awareness training
+
+---
+
+## Section D – Practical Research (CVE)
+
+**CVE ID:** CVE-2021-44228  
+**Name:** Log4Shell  
+**Affected Software:** Apache Log4j  
+**Severity:** Critical  
+**CVSS Score:** 10.0  
+**Impact:** Remote code execution  
+**Mitigation:** Patch Log4j to latest version
+
+*Interview tip:* “This vulnerability allowed attackers to execute code remotely.”
+
+---
+
+## Section E – CIA Mapping (Practical)
+
+| Security Control | CIA Component | Example |
+|-----------------|--------------|--------|
+| Encryption | Confidentiality | Securing stored files |
+| Hashing | Integrity | Prevent file tampering |
+| Backup | Availability | Data recovery |
+| Firewall | Confidentiality | Blocking attackers |
+| Access Control | Confidentiality | Role-based access |
+
+---
+
+## Section F – Career Awareness
+
+**Cybersecurity Role: SOC Analyst**  
+A SOC Analyst monitors security alerts, investigates threats, and responds to incidents.  
+*Example:* Detecting a brute-force attack and blocking the attacker.
+
+---
+
+### 🧾 Interview One-Line Summary
+> “This assignment helped me understand core cybersecurity concepts like CIA Triad, risk assessment, CVEs, and security roles with real-world applications.”
